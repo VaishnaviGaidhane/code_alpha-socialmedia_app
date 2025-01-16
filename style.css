@@ -1,0 +1,172 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    color: #333;
+}
+
+header {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+#feed, #profile {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #ff4d4d;
+}
+
+button {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffcc00;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.post {
+    background-color: white;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.post img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.post img:hover {
+    transform: scale(1.05);
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+    border: 4px solid #ff4d4d;
+}
+
+.follow-btn {
+    background-color: #0095f6;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.follow-btn:hover {
+    background-color: #0088cc;
+}
+
+.follow-btn:focus {
+    outline: none;
+}
+
+.comments {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #666;
+}
+
+.comment {
+    background-color: #f9f9f9;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+}
+
+.comment p {
+    font-style: italic;
+}
+
+h2, h3 {
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1rem;
+}
+
+textarea {
+    font-size: 1.1rem;
+}
+
+button {
+    background-color: #ff4d4d;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffcc00;
+}
+
+#feed {
+    background-color: #f5f5f5;
+    border-radius: 12px;
+    padding: 2rem;
+}
