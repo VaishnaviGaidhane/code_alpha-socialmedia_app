@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>SocialMedia</h1>
+    <nav>
+        <a href="#" onclick="showFeed()">Feed</a>
+        <a href="#" onclick="showProfile()">Profile</a>
+        <a href="#" id="logout">Logout</a>
+    </nav>
+</header>
+
+<div id="feed">
+    <section id="post-section">
+        <h2>Create a Post</h2>
+        <textarea id="post-input" placeholder="What's on your mind?"></textarea>
+        <input type="file" id="post-image" accept="image/*">
+        <button id="post-button">Post</button>
+    </section>
+
+    <div id="posts-list"></div>
+</div>
+
+<div id="profile" style="display: none;">
+    <section id="profile-info">
+        <img id="profile-pic" src="profile.jpg" alt="Profile Picture">
+        <h2 id="username">john_doe</h2>
+        <p>Bio: Just a person sharing my thoughts and pictures!</p>
+        <button class="follow-btn">Follow</button>
+    </section>
+
+    <div id="profile-posts"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
